@@ -28,9 +28,13 @@ sigma = zeros(1, size(X, 2));
 mu = mean(X);
 sigma = std(X);
 n = size(X,2);
+
+% Non-vectorized version
 %for j=1:n
 %    X_norm(:,j) = (X_norm(:,j) - mu(:,j)) / sigma(:,j);
-%end      
+%end   
+
+% Vectorized version   
 X_norm = (X_norm - mu) ./ sigma;
 
 

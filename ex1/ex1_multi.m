@@ -81,13 +81,13 @@ X = [ones(m, 1) X];
 
 fprintf('Running gradient descent ...\n');
 
-% Choose some alpha value
-alpha = 0.01;
-num_iters = 400;
+% % Choose some alpha value
+% alpha = 0.01;
+% num_iters = 400;
 
-% Init Theta and Run Gradient Descent 
-theta = zeros(3, 1);
-[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+% % Init Theta and Run Gradient Descent 
+% theta = zeros(3, 1);
+% [theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
 
 % % when alpha is 0.03
 % alpha_1 = 0.03;
