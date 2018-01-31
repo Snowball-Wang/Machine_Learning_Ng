@@ -10,3 +10,7 @@ The code has two versions: non-vectorized version and vectorized version. The no
 | ex1  | Linear Regression   |
 | ex2  | Logistic Regression |
 
+
+
+
+
